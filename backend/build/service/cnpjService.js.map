@@ -1,0 +1,1 @@
+{"version":3,"file":"cnpjService.js","sourceRoot":"","sources":["../../src/service/cnpjService.ts"],"names":[],"mappings":";;AAAA,8DAAiD;AAEjD,MAAM,WAAW;IAAjB;QACS,UAAK,GAAG,oBAAI,CAAC;IAKtB,CAAC;IAJQ,KAAK,CAAC,QAAQ;QACnB,MAAM,KAAK,GAAG,MAAM,IAAI,CAAC,KAAK,CAAC,OAAO,EAAY,CAAC;QACnD,OAAO,KAAK,CAAC;IACf,CAAC;CACF;AAED,kBAAe,WAAW,CAAC"}

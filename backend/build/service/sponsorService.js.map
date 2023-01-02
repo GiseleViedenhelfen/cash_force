@@ -1,0 +1,1 @@
+{"version":3,"file":"sponsorService.js","sourceRoot":"","sources":["../../src/service/sponsorService.ts"],"names":[],"mappings":";;AAAA,oEAAuD;AAEvD,MAAM,cAAc;IAApB;QACS,UAAK,GAAG,uBAAO,CAAC;IAKzB,CAAC;IAJQ,KAAK,CAAC,WAAW;QACtB,MAAM,QAAQ,GAAG,MAAM,IAAI,CAAC,KAAK,CAAC,OAAO,EAAe,CAAC;QACzD,OAAO,QAAQ,CAAC;IAClB,CAAC;CACF;AAED,kBAAe,cAAc,CAAC"}

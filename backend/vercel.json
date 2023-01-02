@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version":2,
+  "public": true,
+  "build": {
+    "src": "./build/server",
+    "use": "@vercel/node"
+  },
+  "routes": [
+    {"src": "./src/app.ts"},
+    {"dest": "./src/index.ts"}
+  ]
+}

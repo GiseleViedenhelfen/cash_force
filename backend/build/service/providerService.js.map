@@ -1,0 +1,1 @@
+{"version":3,"file":"providerService.js","sourceRoot":"","sources":["../../src/service/providerService.ts"],"names":[],"mappings":";;AAAA,sEAAyD;AAEzD,MAAM,eAAe;IAArB;QACS,UAAK,GAAG,wBAAQ,CAAC;IAK1B,CAAC;IAJQ,KAAK,CAAC,YAAY;QACvB,MAAM,SAAS,GAAG,MAAM,IAAI,CAAC,KAAK,CAAC,OAAO,EAAgB,CAAC;QAC3D,OAAO,SAAS,CAAC;IACnB,CAAC;CACF;AAED,kBAAe,eAAe,CAAC"}
