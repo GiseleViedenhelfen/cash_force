@@ -1,0 +1,3 @@
+[submodule "cash_force"]
+	path = cash_force
+	url = https://github.com/GiseleViedenhelfen/cash_force
