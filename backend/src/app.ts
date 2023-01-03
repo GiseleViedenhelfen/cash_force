@@ -25,6 +25,7 @@ class App {
     const offerController = new OfferController();
     const infoCostumer = new infoCostumerController();
     this.app.use(cors());
+    this.app.get('/', (req, res) => res.json({ ok: true }));
     this.app.get('/users', userController.getAll);
     this.app.get('/sponsors', sponsorController.getAll);
     this.app.get('/provider', providerController.getAll);
@@ -41,3 +42,4 @@ class App {
 }
 
 export { App };
+export const { app } = new App();

@@ -4,8 +4,6 @@ import Cnpj from "./cnpj.model";
 import User from "./user.model";
 import Buyer from "./buyer.model";
 import Provider from "./provider.model";
-import OrderPortion from "./orderPortion.model";
-
 
 class Order extends Model {
   id!: number;

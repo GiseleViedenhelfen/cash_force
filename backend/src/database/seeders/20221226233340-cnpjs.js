@@ -1,5 +1,4 @@
 'use strict';
-// 20221227020508 - original cnpjs
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {

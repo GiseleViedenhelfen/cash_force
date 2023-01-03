@@ -1,9 +1,5 @@
 import { DataTypes, Model } from "sequelize";
 import db from '.'
-import Buyer from "./buyer.model";
-import Sponsor from "./sponsor.model";
-import Provider from "./provider.model";
-import Order from "./order.model";
 
 class Cnpj extends Model {
   id!: number;

@@ -1,7 +1,6 @@
 import { DataTypes, Model } from "sequelize";
 import db from '.'
 import Cnpj from "./cnpj.model";
-import Order from "./order.model";
 
 class Buyer extends Model {
   id!: number;

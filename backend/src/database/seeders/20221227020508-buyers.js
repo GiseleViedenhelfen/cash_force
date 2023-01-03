@@ -1,5 +1,4 @@
 'use strict';
-// 20221226233340 - original buyers
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
