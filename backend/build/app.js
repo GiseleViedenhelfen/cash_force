@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.App = void 0;
+exports.app = exports.App = void 0;
 const express = require("express");
 const cors = require("cors");
 const user_controller_1 = require("./controller/user.controller");
@@ -25,6 +25,7 @@ class App {
         const offerController = new offer_controller_1.default();
         const infoCostumer = new infoCostumer_controller_1.default();
         this.app.use(cors());
+        this.app.get('/', (req, res) => res.json({ ok: true }));
         this.app.get('/users', userController.getAll);
         this.app.get('/sponsors', sponsorController.getAll);
         this.app.get('/provider', providerController.getAll);
@@ -40,4 +41,5 @@ class App {
     }
 }
 exports.App = App;
+exports.app = new App().app;
 //# sourceMappingURL=app.js.map

@@ -185,6 +185,11 @@ th:nth-child(1) {
   color: #00AD8C;
   text-transform: uppercase;
 }
+.td-green:nth-child(2) {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
 td button {
   width: 10rem;
   margin-right: 1rem;
