@@ -12,7 +12,6 @@ services:
       - db
     environment:
       - APP_PORT=3001
-      - JWT_SECRET=jwt_secret
       - DB_USER=root
       - DB_PASS=senha-mysql
       - DB_HOST=db
@@ -24,7 +23,11 @@ services:
     ports:
       - 3306:3306
     environment:
-      - MYSQL_ROOT_PASSWORD=senha-mysql
+      - APP_PORT=3001
+      - DB_USER=root
+      - DB_PASS=senha-mysql
+      - DB_HOST=db
+      - DB_PORT=3306
     restart: 'always'
     cap_add:
       - SYS_NICE
