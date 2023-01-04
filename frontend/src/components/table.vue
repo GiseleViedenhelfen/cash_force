@@ -130,8 +130,8 @@ export default class Table extends Vue {
   margin-left: 4rem;
 }
 .table-header-container h3 {
+  width: 25rem;
   margin: 0;
-  width: 149px;
   height: 28px;
   font-family: 'DM Sans';
   font-style: normal;
