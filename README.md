@@ -1,4 +1,4 @@
-#Teste para Cashforce <> Vaga Developer - Júnior
+##Teste para Cashforce Vaga Developer - Júnior
 Estruturar uma aplicação web fullstack, dockerizada, cujo objetivo é criar tabela que da visibilidade para o usuário de suas notas fiscais.
 
 ## 🛠️ Ferramentas
